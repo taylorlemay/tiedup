@@ -1,0 +1,191 @@
+
+/* pink: f5a494 */
+
+/* Top BAR */
+
+
+.top-bar {
+	background-color: #fff;
+/*	border-bottom: .5px solid #4d4d4d;*/
+	color: #4d4d4d;
+/*	height: 45px;*/
+}
+
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background-color: #4d4d4d;
+}
+
+/*
+.top-bar .name h1{
+	font-weight: 900;
+	font-size: 1rem;
+}*/
+
+header img {
+	height: 33px;
+}
+
+.top-bar-section ul li > a {
+	background-color: #f5a494;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	letter-spacing: .5px;
+	font-family: 'Barlow', sans-serif;	
+	background-color: #fff;
+	color: #4d4d4d;
+}
+
+header .svg-inline--fa {
+	font-size: 1rem;
+}
+
+h1,h2,h3,h4,h5 {
+	font-family: 'Barlow', sans-serif;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+h2 {
+/*	text-align: center;*/
+	font-size: 2rem;
+}
+
+footer {
+	background-color: #f2f2f2;
+	overflow: hidden;
+/*	border-top: .5px solid #4d4d4d;*/
+	padding: 30px;
+	color: #4d4d4d;
+}
+
+footer h1 {
+	color: #4d4d4d;
+}
+
+footer a  {
+	color: #4d4d4d;
+
+}
+
+footer .svg-inline--fa {
+	font-size: 1.5rem;
+}
+
+
+footer a:hover {
+	color: #4d4d4d;
+}
+
+footer p {
+	margin: 0;
+	font-family: 'Barlow', sans-serif;	
+}
+
+
+.caption-1 h2 {
+	position: absolute;
+	bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.caption h1 {
+	position: absolute;
+	top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+
+}
+
+.hero  {
+	position: relative;
+}
+
+.hero .row {
+
+	max-width: none;
+padding: 0;
+}
+
+
+.hero .column {
+
+	max-width: none;
+padding: 0;
+}
+
+.features h1 {
+	position: absolute;
+	top:30%;
+	left:10%;
+	width: 100%;
+	text-align: left;
+
+}
+
+.three .row {
+	max-width: none;
+	padding: 0;
+}
+
+
+.three .column {
+
+	max-width: none;
+padding: 0;
+}
+
+
+
+
+.first {
+	color: #124357;
+	font-size: 1.5rem;
+
+}
+
+.second {
+	color: #413f3e;
+	font-size: 1.5rem;
+
+}
+
+
+.panel {
+	background-color: transparent;
+}
+
+.product-price {
+	font-size: 1.5rem;
+}
+
+
+.button {
+	background-color: #a1a1a1;
+		font-family: 'Barlow', sans-serif;	
+}
+/*
+
+.hero {
+		background: url('../img/tie-bag.jpg');
+		background-size: contain;
+}
+*/
+
+$(document).foundation({
+  orbit: {bullets=false,}
+
+});
+
+
