@@ -1,14 +1,10 @@
 
-/* pink: f5a494 */
-
 /* Top BAR */
 
 
 .top-bar {
 	background-color: #fff;
-/*	border-bottom: .5px solid #4d4d4d;*/
 	color: #4d4d4d;
-/*	height: 45px;*/
 }
 
 
@@ -17,14 +13,8 @@
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-	background-color: #4d4d4d;
+	background-color: #f5a494;
 }
-
-/*
-.top-bar .name h1{
-	font-weight: 900;
-	font-size: 1rem;
-}*/
 
 header img {
 	height: 33px;
@@ -41,28 +31,44 @@ header img {
 	color: #4d4d4d;
 }
 
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+	background-color: #a1a1a1;
+}
+
+
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+	background-color: #f5a494;
+}
+
+.breadcrumbs > * a {
+    color: #a1a1a1;
+}
+
+.breadcrumbs {
+	border:none;
+}
+
+
 header .svg-inline--fa {
 	font-size: 1rem;
 }
 
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5, a {
 	font-family: 'Barlow', sans-serif;
 }
 
-p {
+p,  {
 	font-family: 'Raleway', sans-serif;
 }
 
 
 h2 {
-/*	text-align: center;*/
 	font-size: 2rem;
 }
 
 footer {
 	background-color: #f2f2f2;
 	overflow: hidden;
-/*	border-top: .5px solid #4d4d4d;*/
 	padding: 30px;
 	color: #4d4d4d;
 }
@@ -90,13 +96,33 @@ footer p {
 	font-family: 'Barlow', sans-serif;	
 }
 
-
 .caption-1 h2 {
 	position: absolute;
 	bottom: 0%;
-    left: 50%;
+    right: 0%;
     transform: translate(-50%, -50%);
+}
 
+.caption-2 h2 {
+	position: absolute;
+	bottom: 0%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.caption-3 h2 {
+	position: absolute;
+	bottom: 0%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+}
+
+main a {
+	color: #a1a1a1;
+}
+
+main a:hover {
+	color: #000;
 }
 
 .caption h1 {
@@ -105,7 +131,9 @@ footer p {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-
+	text-shadow: 0 0 40px rgba(0,0,0,.9);
+	font-size: 2.5rem;
+	text-align: center;
 }
 
 .hero  {
@@ -113,16 +141,14 @@ footer p {
 }
 
 .hero .row {
-
 	max-width: none;
-padding: 0;
+	padding: 0;
 }
 
 
 .hero .column {
-
 	max-width: none;
-padding: 0;
+	padding: 0;
 }
 
 .features h1 {
@@ -131,7 +157,11 @@ padding: 0;
 	left:10%;
 	width: 100%;
 	text-align: left;
+}
 
+.three {
+	padding-top: 30px;
+	padding-bottom: 50px;
 }
 
 .three .row {
@@ -141,26 +171,34 @@ padding: 0;
 
 
 .three .column {
-
 	max-width: none;
-padding: 0;
+	padding: 0;
 }
-
-
-
 
 .first {
 	color: #124357;
 	font-size: 1.5rem;
-
+	text-align: right;
 }
 
 .second {
-	color: #413f3e;
+	color: #fff;
 	font-size: 1.5rem;
-
 }
 
+.third {
+	color: #564132;
+	font-size: 1.5rem;
+	text-align: right;
+}
+
+ a img:hover {
+	color: #000;
+}
+
+aside h1 {
+	font-size: 2rem;
+}
 
 .panel {
 	background-color: transparent;
@@ -170,22 +208,32 @@ padding: 0;
 	font-size: 1.5rem;
 }
 
-
 .button {
+	border: 1.5px solid;
+	border-color: #f5a494;
+	color: #f5a494;
+	background-color: #fff;
+	font-family: 'Barlow', sans-serif;	
+}
+
+.button:hover {
+	background-color: #f5a494;
+}
+
+ button  {
+	border: 1.5px solid;
+	border-color: #a1a1a1;
+	color: #a1a1a1;
+	background-color: #fff;
+	font-family: 'Barlow', sans-serif;	
+}
+
+button:hover {
 	background-color: #a1a1a1;
-		font-family: 'Barlow', sans-serif;	
 }
-/*
 
-.hero {
-		background: url('../img/tie-bag.jpg');
-		background-size: contain;
+.another {
+	padding-top: 40px;
+
 }
-*/
-
-$(document).foundation({
-  orbit: {bullets=false,}
-
-});
-
 
